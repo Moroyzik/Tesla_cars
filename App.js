@@ -16,17 +16,13 @@ import {
   StatusBar,
   ImageBackground,
 } from 'react-native';
-import CarItem from './components/carItem/index';
+import CarList from './components/CarsList';
+import CarsList from './components/CarsList';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <CarItem
-        name={'Model X'}
-        tagLine={'Order Online For'}
-        tagLineCTA={'Touchless Delivery'}
-        image={require('./assets/images/modelS.jpg')}
-      />
+      <CarList />
       <StatusBar style="auto" />
     </View>
   );
