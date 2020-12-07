@@ -5,7 +5,6 @@ import styles from './styles';
 import cars from './cars';
 
 const CarList = (props) => {
-  console.log(cars);
   return (
     <View style={styles.container}>
       <FlatList data={cars} renderItem={({item}) => <CarItem car={item} />} />

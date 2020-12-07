@@ -17,7 +17,6 @@ import {
   ImageBackground,
 } from 'react-native';
 import CarList from './components/CarsList';
-import CarsList from './components/CarsList';
 
 const App = () => {
   return (
